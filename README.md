@@ -38,7 +38,7 @@ Output: X_normalized.npy <br>
 
 ## NORMALIZATION PROBLEM
 
-####Function: np.arange(1, 101)**2
+#### Function: np.arange(1, 101)**2
 Description: To create an array of integers from 1 to 100, squaring each integer. <br>
 Output: array([    1,     4,     9,    16,    25,    36,    49,    64,    81,
          100,   121,   144,   169,   196,   225,   256,   289,   324,
@@ -53,7 +53,7 @@ Output: array([    1,     4,     9,    16,    25,    36,    49,    64,    81,
         8281,  8464,  8649,  8836,  9025,  9216,  9409,  9604,  9801,
        10000])
 
-####Function: A.reshape(10, 10)
+#### Function: A.reshape(10, 10)
 Description: To reshape array A in a 10x10 dimesion. <br>
 Output: array([[    1,     4,     9,    16,    25,    36,    49,    64,    81,
           100],
@@ -76,7 +76,7 @@ Output: array([[    1,     4,     9,    16,    25,    36,    49,    64,    81,
        [ 8281,  8464,  8649,  8836,  9025,  9216,  9409,  9604,  9801,
         10000]])
 
-####Function: A[A % 3 == 0]
+#### Function: A[A % 3 == 0]
 Description: To determine the elements in array that are divisible by 3 <br>
 Output: array([   9,   36,   81,  144,  225,  324,  441,  576,  729,  900, 1089,
        1296, 1521, 1764, 2025, 2304, 2601, 2916, 3249, 3600, 3969, 4356,
