@@ -2,7 +2,7 @@
 2-ECEB <br>
 PA 2 - NUMERICAL PYTHON (NUMPY)
 
-This repository contains Python scripts designed to address a range of programming problems in ECE2112. The focus is on array creation and the utilization of the NumPy library for numerical analysis. Presented below are the functions used in the specific Python exercise along its description and output.
+###### This repository contains Python scripts designed to address a range of programming problems in ECE2112. The focus is on array creation and the utilization of the NumPy library for numerical analysis. Presented below are the functions used in the specific Python exercise along its description and output.
 
 ## NORMALIZATION PROBLEM
 
@@ -35,3 +35,53 @@ Output: array([[-0.94690335, -1.50788184, -0.69844721,  0.13541332, -0.42844783]
 #### Function: np.save("X_normalized.npy", X_normalized)
 Description: To save the normalized ndarray as X_normalized.npy <br>
 Output: X_normalized.npy <br>
+
+## NORMALIZATION PROBLEM
+
+####Function: np.arange(1, 101)**2
+Description: To create an array of integers from 1 to 100, squaring each integer. <br>
+Output: array([    1,     4,     9,    16,    25,    36,    49,    64,    81,
+         100,   121,   144,   169,   196,   225,   256,   289,   324,
+         361,   400,   441,   484,   529,   576,   625,   676,   729,
+         784,   841,   900,   961,  1024,  1089,  1156,  1225,  1296,
+        1369,  1444,  1521,  1600,  1681,  1764,  1849,  1936,  2025,
+        2116,  2209,  2304,  2401,  2500,  2601,  2704,  2809,  2916,
+        3025,  3136,  3249,  3364,  3481,  3600,  3721,  3844,  3969,
+        4096,  4225,  4356,  4489,  4624,  4761,  4900,  5041,  5184,
+        5329,  5476,  5625,  5776,  5929,  6084,  6241,  6400,  6561,
+        6724,  6889,  7056,  7225,  7396,  7569,  7744,  7921,  8100,
+        8281,  8464,  8649,  8836,  9025,  9216,  9409,  9604,  9801,
+       10000])
+
+####Function: A.reshape(10, 10)
+Description: To reshape array A in a 10x10 dimesion. <br>
+Output: array([[    1,     4,     9,    16,    25,    36,    49,    64,    81,
+          100],
+       [  121,   144,   169,   196,   225,   256,   289,   324,   361,
+          400],
+       [  441,   484,   529,   576,   625,   676,   729,   784,   841,
+          900],
+       [  961,  1024,  1089,  1156,  1225,  1296,  1369,  1444,  1521,
+         1600],
+       [ 1681,  1764,  1849,  1936,  2025,  2116,  2209,  2304,  2401,
+         2500],
+       [ 2601,  2704,  2809,  2916,  3025,  3136,  3249,  3364,  3481,
+         3600],
+       [ 3721,  3844,  3969,  4096,  4225,  4356,  4489,  4624,  4761,
+         4900],
+       [ 5041,  5184,  5329,  5476,  5625,  5776,  5929,  6084,  6241,
+         6400],
+       [ 6561,  6724,  6889,  7056,  7225,  7396,  7569,  7744,  7921,
+         8100],
+       [ 8281,  8464,  8649,  8836,  9025,  9216,  9409,  9604,  9801,
+        10000]])
+
+####Function: A[A % 3 == 0]
+Description: To determine the elements in array that are divisible by 3 <br>
+Output: array([   9,   36,   81,  144,  225,  324,  441,  576,  729,  900, 1089,
+       1296, 1521, 1764, 2025, 2304, 2601, 2916, 3249, 3600, 3969, 4356,
+       4761, 5184, 5625, 6084, 6561, 7056, 7569, 8100, 8649, 9216, 9801])
+
+#### Function: np.save('div_by_3.npy', div_by_3)
+Description: To save the normalized ndarray as div_by_3.npy <br>
+Output: div_by_3.npy <br>
