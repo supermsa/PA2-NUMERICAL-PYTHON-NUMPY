@@ -36,7 +36,7 @@ Output: array([[-0.94690335, -1.50788184, -0.69844721,  0.13541332, -0.42844783]
 Description: To save the normalized ndarray as X_normalized.npy <br>
 Output: X_normalized.npy <br>
 
-## NORMALIZATION PROBLEM
+## DIVISIBLE BY 3 PROBLEM
 
 #### Function: np.arange(1, 101)**2
 Description: To create an array of integers from 1 to 100, squaring each integer. <br>
